@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthFlow.Data", "Data\AuthFlow.Data.csproj", "{303C5F30-C557-4797-9FEC-E0DFB5D19DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthFlow.Service", "Service\AuthFlow.Service.csproj", "{3A1DD093-E365-4A53-9EBF-93F16E083C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthFlow", "FaaS\AuthFlow.csproj", "{9338C23F-B714-4C47-B6E6-4A1A8C76C131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{303C5F30-C557-4797-9FEC-E0DFB5D19DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303C5F30-C557-4797-9FEC-E0DFB5D19DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303C5F30-C557-4797-9FEC-E0DFB5D19DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303C5F30-C557-4797-9FEC-E0DFB5D19DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1DD093-E365-4A53-9EBF-93F16E083C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1DD093-E365-4A53-9EBF-93F16E083C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1DD093-E365-4A53-9EBF-93F16E083C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1DD093-E365-4A53-9EBF-93F16E083C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9338C23F-B714-4C47-B6E6-4A1A8C76C131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9338C23F-B714-4C47-B6E6-4A1A8C76C131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9338C23F-B714-4C47-B6E6-4A1A8C76C131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9338C23F-B714-4C47-B6E6-4A1A8C76C131}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
