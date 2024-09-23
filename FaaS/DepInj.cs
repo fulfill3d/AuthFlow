@@ -19,6 +19,7 @@ namespace AuthFlow
             services.AddDatabaseContext<AuthFlowDbContext>(dbOption);
             services.ConfigureServiceOptions<TokenServiceOptions>((_, opt) => tokenServiceOptions(opt));
             services.ConfigureServiceOptions<AuthServiceOptions>((_, opt) => authServiceOptions(opt));
+            services.AddHttpClient();
             services.AddTransient<IAuthService, AuthService>();
             services.AddTransient<ITokenService, TokenService>();
         }
